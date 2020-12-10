@@ -54,7 +54,7 @@ function hsl2rgb(h,s,l)
 }
 function randomColor() {
   do {
-    var randomColorHSL = [randomInteger(0,360),randomInteger(0,100)/100,randomInteger(0,100)/100]
+    var randomColorHSL = [randomInteger(0,360),randomInteger(50,100)/100,randomInteger(50,100)/100]
     console.log(randomColorHSL)
     var randomColorRGB = hsl2rgb(...randomColorHSL)
     console.log(randomColorRGB)
