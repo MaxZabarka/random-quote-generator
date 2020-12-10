@@ -1,5 +1,5 @@
 :root {
-  --main-color: blue;
+  --main-color: white;
 }
 
 @media (orientation:landscape) {
@@ -34,7 +34,7 @@ button {
   right: 2vmin;
 }
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 .container {
 
@@ -94,6 +94,8 @@ i {
   text-align: center;
   position: fixed;
   font-size: 2em;
+  transition: font-size 0.3s;
+
 }
 .fa-github {
   left: 20px;

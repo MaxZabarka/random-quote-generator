@@ -20,7 +20,6 @@ function addQuote(quote,author) {
 function randomInteger(min,max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-getQuote()
 
 
 const container = document.querySelector('.container')
