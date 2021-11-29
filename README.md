@@ -9,5 +9,5 @@ An app to generate a random quote!
 
 * Responsive
 * Animated
-* Makes call to type.fit API
-* Algorithm to generate good looking colors
+* Makes call to Rest API
+* Algorithm to generate ensure high contrast colors
